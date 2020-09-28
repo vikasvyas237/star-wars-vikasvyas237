@@ -1,0 +1,42 @@
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Stars Wars Explorer</span>
+    <button class="button-div" color="primary" (click)='goToPeople($event)'>PEOPLE</button>
+    <button class="button-div" color="primary">MOVIES</button>
+    <button class="button-div" color="primary">PLANETS</button>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+
+<router-outlet></router-outlet>
+
+<!-- <div class="button-div">
+
+</div>
+
+<div class="button-div">
+
+</div>
+
+<div class="button-div">
+
+</div> -->
+
+
+
+
+
+
